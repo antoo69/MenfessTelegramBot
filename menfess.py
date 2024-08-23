@@ -32,9 +32,9 @@ admin = json.loads(os.getenv("ADMIN"))
 trigger = json.loads(os.getenv("TAG"))
 delay = os.getenv("DELAY")
 mulai = '''
-Selamat Datang Di *Garz Menfess*
+Selamat Datang Di *Fsyrl Menfess*
 
-kamu bebas mengirim menfess pada channel garzmenfess, jika ingin memposting menfess silahkan kirim pesan teks beserta tag dibawah ini :
+kamu bebas mengirim menfess pada channel fsyrlmenfess, jika ingin memposting menfess silahkan kirim pesan teks beserta tag dibawah ini :
 	
 *{}*
 
@@ -151,7 +151,7 @@ def awikwokbanget(cek, cekin):
 	b2 = bb(text="Cek Komentar", url=cekin)
 	miaw.add(b1, b2)
 	return miaw
-print("\n\nBOT TELAH AKTIF!!! @GARZPROJECT")
+print("\n\nBOT TELAH AKTIF!!! @fsyrl")
 bot.infinity_polling()
 
 
